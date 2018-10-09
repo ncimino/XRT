@@ -224,7 +224,7 @@ int main_(int argc, char** argv) {
   }
 
 
-  if (bInfo) {
+  if (bInfo && !sInputFile.empty()) {
     xclBin.printHeader();
   }
 
